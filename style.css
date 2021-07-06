@@ -21,6 +21,15 @@ h1{
     padding: 10px 20px;
     border-radius: 20px;
 }
+.contact-button{
+    text-decoration: none;
+    background-image:linear-gradient(#ff0000,#ffa500);
+    color:black;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
 #to-parallel{
     display: flex;
     background-color:#f5deb300;
@@ -96,4 +105,19 @@ h1{
 .for_padding{
     padding-left: 10%;
     padding-right: 10%
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+.top-right {
+    position: absolute;
+    top: 900px;
+    right: 500px;
+}
+.top-right2{
+    position: absolute;
+    top: 855px;
+    right: 450px;
 }
