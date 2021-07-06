@@ -36,9 +36,9 @@ h1{
     padding-left: 10px;
 }
 .top-right {
-    position: absolute;
-    top: 500px;
-    right: 100px;
+    position: top;
+    top: 300px;
+    right: 50px;
 }
 .container {
     position: relative;
@@ -46,7 +46,7 @@ h1{
     color: #000000;
 }
 #owner-contact{
-    padding-top: 250px;
+    padding-top: 1px;
 }
 #to-differentiate{
     padding-top: 250px;
@@ -54,14 +54,30 @@ h1{
 #recipies-item{
     display: flex;
     padding: 10px 10px;
-}
-.pic-parallel{
-    
-    padding-left: 20px;
-    padding-right: 30px;
 
+}
+.pic-parallel{    
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 .item-position{
     padding-right: 60px;
     padding-left: 20px;
+    text-align: left;
+}
+.container{
+    box-shadow:10px 10px 40px #00000057;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.footer-note{
+    background-color:#000000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    margin:0%;
+    color: white;
 }
