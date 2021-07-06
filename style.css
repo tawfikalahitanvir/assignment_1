@@ -54,6 +54,8 @@ h1{
 #recipies-item{
     display: flex;
     padding: 10px 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 .pic-parallel{    
@@ -71,13 +73,27 @@ h1{
     margin-left: 1%;
     margin-right: 1%;
     padding-right: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .footer-note{
     background-color:#000000;
     text-align: center;
-    padding-top: 10px;
+    color: #ffffff;
+    padding-top: 30px;
     padding-bottom: 60px;
-    margin:0%;
-    color: white;
+    
+}
+.followers_note{
+    display: flex;
+    box-shadow:10px 10px 40px #00000057;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.for_padding{
+    padding-left: 10%;
+    padding-right: 10%
 }
