@@ -9,6 +9,11 @@ h1{
     padding-top: 10px;
     padding-bottom: 40px;
 }
+.p2{
+    color:#000000c4;
+    text-align: center;
+    font-size: 35px;
+}
 .order-button{
     text-decoration: none;
     background-image:linear-gradient(#ff0000,#ffa500);
@@ -29,4 +34,34 @@ h1{
     height: 70%;
     padding-right: 30px;
     padding-left: 10px;
+}
+.top-right {
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: #000000;
+}
+#owner-contact{
+    padding-top: 250px;
+}
+#to-differentiate{
+    padding-top: 250px;
+}
+#recipies-item{
+    display: flex;
+    padding: 10px 10px;
+}
+.pic-parallel{
+    
+    padding-left: 20px;
+    padding-right: 30px;
+
+}
+.item-position{
+    padding-right: 60px;
+    padding-left: 20px;
 }
